@@ -8,38 +8,43 @@
 </head>
 <body>
     <header>
-        <h1>My portfolio</h1>
-        <p>This is my portfolio</p>
-        <img src="images/IMG_0860 0.JPG" alt="" width="100" height="100">
-    </header> <hr>
-    <nav>
-        <a href="#About">About</a>
-        <a href="#Intrests">Intrests</a>
-        <a href="#hobbies">hobbies</a>
-        <a href="#goals">goals</a>
-        <a href="#Feedback">Feedback</a>
-        <a href="#Contacts">Contacts</a>
         
-    </nav>
+        <h1>My portfolio <br> Welcome</h1> <br>
+         <img src="images/profile pic.jpg" alt="" width="100" height="100">
+
+        <nav>
+            <a href="#About">About</a>
+            <a href="#interests">Interests</a>
+            <a href="#hobbies">hobbies</a>
+            <a href="#goals">goals</a>
+            <a href="#feedback">Feedback</a>
+            <a href="#contacts">Contacts</a>
+            
+        </nav>
+        
+
+
+    </header> 
     <main>
-        <section>
-            <div id="About">
+        <section id="About">
+        
                 <h2>About me.</h2>
+                
                 <p>I love learning new technologies and turning ideas into real project.</p>
-            </div>
-            <div id="Intrests">
-                <h2>My intrests</h2>
+        </section>
+        <section id="interests">  
+                <h2>My interests</h2>
                 <P>I want to learn software skill that will help me solve real-world problems.</P>
-            </div>
-            <div id="hobbies">
+        </section> 
+        <section class="myList" id="hobbies">    
                 <h2>My hobbies</h2>
                 <ul>
                     <li>Cycling</li>
                     <li>watch movies</li>
                     <li>learn tech</li>
                 </ul>
-            </div>
-            <div id="goals">
+       </section>
+        <section class="myList" id="goals">
                 <h2>My learning goals</h2>
                 <ol>
                     <li>Learn front-end</li>
@@ -47,7 +52,8 @@
                     <li>learn APIs</li>
                     <li>learn Database</li>
                 </ol>
-            </div>
+        </section>    
+        <section id="skills">
             <h2>My skills</h2>
             <table>
                 <thead>
@@ -70,20 +76,18 @@
                     </tr>
                 </tboby>
             </table>
-            </div>
-           
-           
-            <div id="Feedback">
+        </section>   
+        <section id="feedback">   
                 <h2>Feedback</h2>
                 <form action="post" method="post">
-                    <fieldset>
+                       
                     <fieldset >
                         <legend>feedback</legend>
 
                       
                     <p>
                         <label for="name", >Name:</label>
-                        <input type="text" id="name" required placeholder="Brian Karimi"> <br>
+                        <input type="text" id="name" required placeholder="Brian Karimi"> 
                         </p> 
                         <p>
                             <label for="Contact" >Contact:</label>
@@ -104,23 +108,26 @@
                         <button for="submit" formmethod="post" formaction="post">submit</button>
                         <button for="reset">Reset</button>
                     </fieldset>
-                    </fieldset>
+                    
                     
                 </form>
-            </div>
-             <div id="Contacts">
+        </section>
+        <section id="contacts">
+   
                 <h2>Contacts</h2>
                 <P>
                     Your can conntact me through;<br>
                     <b>Phone:</b> 0741256918. <br>
                    <b>My email: </b> <a href="rayokarayme@gmail.com">email</a>
                 </P>
-            </div>
         </section>
     </main>
-    <footer>
-        &copy;Brian Karimi
-    </footer>
+    <section>
+        <footer>
+            &copy;Brian Karimi
+        </footer>
+    </section>    
+
  
 </body>
 </html>
